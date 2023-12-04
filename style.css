@@ -3,6 +3,7 @@
     padding: 0;
     font-family:'Titillium web';
     box-sizing: none;
+    
 }
 html,body{
     height: 100%;
@@ -15,7 +16,7 @@ html,body{
     color: #fff;
     position: relative;
     display:flex;
-    gap: 20px;
+    
     padding: 30px 80px;
     font-size: 20px;
     justify-content: space-between;
@@ -23,16 +24,19 @@ html,body{
 #nav .text{
   justify-content: space-between;
   font-weight: 800;  
+  gap: 5px;
   
 }
 
 #nav a:hover{
   text-decoration: underline;
+  cursor: pointer;
 }
 #nav a{
   color: #fff;
   background-color: #000000;
   text-decoration: none;
+  padding: 20px;
   
 }
 #nav .right{
@@ -46,6 +50,7 @@ html,body{
     background-color: transparent;
     color:#fff ;
     opacity: 0.8;
+    cursor: pointer;
    padding: 15px 40px;
     font-weight: 6000;
    border: 1px solid #fff;
@@ -71,19 +76,24 @@ html,body{
     position: relative;
     display: flex;
     flex-direction: column;
-    
-  }
-  #main #button-main{
-    display: flex;
-    align-items: center;
-    
   }
   #main h2{
-    font-weight: 500;
-    font-size: 60px;
+    font-weight: 600;
+    font-size: 6.5vw;
+    margin-bottom: 40px;
   }
   input{
     width: 700px;
     height: 60px;
     padding-left: 10px;
+    border: 1px solid #000000;
   }
+  input:hover{
+    border-radius: 1px;
+    cursor: pointer;
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.15);
+  }
+#page2 .img img{
+  
+
+}
